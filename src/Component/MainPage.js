@@ -4,6 +4,7 @@ import FoodCard from "./FoodCard";
 const MainPage = () => {
   const [mealData, setMealData] = useState();
   const [search, setSearch] = useState();
+
   useEffect(() => {
     getMeal();
   }, []);
@@ -15,11 +16,12 @@ const MainPage = () => {
       `https://www.themealdb.com/api/json/v1/1/search.php?s=${search}`
     );
     const data = await response.json();
-
     setMealData(data.meals);
   };
+
   return (
     <div>
+      <h1 style={{ textAlign: "center" }}>FOOD RECIPE APP</h1>
       <div className="container">
         <div className="searchBar">
           <input
