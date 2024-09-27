@@ -8,6 +8,7 @@ const Routing = () => {
     <div>
       <Routes>
         <Route path="/" element={<MainPage />} />
+        <Route path="/react-food-recipe-app" element={<MainPage />} />
         <Route path="/:mealid" element={<Recipe />} />
       </Routes>
     </div>
