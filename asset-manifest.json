@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-food-recipe-app/static/css/main.ad93604e.css",
+    "main.js": "/react-food-recipe-app/static/js/main.d5a30e2a.js",
+    "static/js/453.679e8433.chunk.js": "/react-food-recipe-app/static/js/453.679e8433.chunk.js",
+    "index.html": "/react-food-recipe-app/index.html",
+    "main.ad93604e.css.map": "/react-food-recipe-app/static/css/main.ad93604e.css.map",
+    "main.d5a30e2a.js.map": "/react-food-recipe-app/static/js/main.d5a30e2a.js.map",
+    "453.679e8433.chunk.js.map": "/react-food-recipe-app/static/js/453.679e8433.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ad93604e.css",
+    "static/js/main.d5a30e2a.js"
+  ]
+}
