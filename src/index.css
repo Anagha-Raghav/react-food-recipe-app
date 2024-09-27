@@ -11,3 +11,71 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.searchBar{
+  display: flex;
+  justify-content: center;
+  gap: 7px;
+  margin-top: 30px;
+}
+.searchBar input{
+  width: 400px;
+  padding: 10px;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background-color: #e7e7e7;
+}
+.searchBar button
+{
+  width: 100px;
+  background-color: orange;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  
+}
+.foodContainer{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  width: 90%;
+  height: auto;
+  margin: auto;
+  margin-top: 30px;
+  padding-bottom: 20px;
+}
+.foodContainer img{
+  width: 100%;
+  height: 250px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  
+
+}
+.foodImage{
+  width: 250px;
+  height: 350px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0px 3px 3px 3px rgb(240,240,240);
+  border-radius: 10px;
+}
+.foodContainer .foodImage p{
+  font-weight: 600;
+}
+.foodContainer .foodImage button{
+  width: 100px;
+  background-color: orange;
+  color: #fff;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  padding: 7px;
+  cursor: pointer;
+}
